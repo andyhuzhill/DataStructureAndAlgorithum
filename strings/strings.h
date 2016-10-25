@@ -16,6 +16,8 @@ char *my_strstr1(const char *haystack, const char *needle);
 
 int my_atoi(const char *str);
 
+char *revert_string(char *str);
+
 #ifdef __cplusplus
 }
 #endif

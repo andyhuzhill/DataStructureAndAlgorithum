@@ -61,6 +61,16 @@ TEST(StringsTest, Atoi)
     EXPECT_EQ(INT_MAX, my_atoi("2147483648"));
 }
 
+TEST(StringsTest, RevertString)
+{
+    char str1[] = "ABCDEFG";
+    char str2[] = "ABCDEFGH";
+    char str3[] = "";
+    EXPECT_STREQ("GFEDCBA", revert_string(str1));
+    EXPECT_STREQ("HGFEDCBA", revert_string(str2));
+    EXPECT_STREQ("", revert_string(str3));
+}
+
 int main(int argc, char *argv[])
 {
     testing::InitGoogleTest(&argc, argv);
