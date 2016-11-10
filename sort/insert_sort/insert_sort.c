@@ -2,9 +2,13 @@
 #include <string.h>
 
 #include "insert_sort.h"
+#include <assert.h>
 
 int insert_sort(void *data, int size, int esize, int (*compare)(const void *key1, const void *key2))
 {
+    assert(data != NULL);
+    assert(compare != NULL);
+
     char *a = data;
     void *key;
     int  i = 0;
