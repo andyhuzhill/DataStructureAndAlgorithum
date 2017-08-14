@@ -8,7 +8,7 @@ include_directories(${GTEST_INCLUE_DIRS})
 include_directories(${PROJECT_BINARY_DIR}/include)
 include_directories(../../src/binarysearch)
 
-add_executable(binary_search_test ${SRC_LIST} ${TST_LIST})
+add_executable(binary_search_test ${TST_LIST})
 target_link_libraries(binary_search_test ${GTEST_BOTH_LIBRARIES})
 target_link_libraries(binary_search_test ${CMAKE_THREAD_LIBS_INIT})
 
