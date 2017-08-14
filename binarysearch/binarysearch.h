@@ -42,9 +42,9 @@ int binary_search_subrecursion(T key, int left, int right, const std::vector<T> 
     if (data[mid] == key) {
         return mid;
     } else if (data[mid] < key) {
-        return binary_search_subrecursion(key, left + 1, right, data);
+        return binary_search_subrecursion(key, mid + 1, right, data);
     } else if (data[mid] > key) {
-        return binary_search_subrecursion(key, left, right - 1, data);
+        return binary_search_subrecursion(key, left, mid - 1, data);
     }
 }
 
