@@ -1,5 +1,5 @@
 
-#include "../binarysearch.h"
+#include "binarysearch.h"
 #include <gtest/gtest.h>
 
 #include <algorithm>

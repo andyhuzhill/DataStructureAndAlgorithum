@@ -1,5 +1,5 @@
 
-#include "../stack.h"
+#include "stack.h"
 #include <gtest/gtest.h>
 
 Stack *stack = nullptr;

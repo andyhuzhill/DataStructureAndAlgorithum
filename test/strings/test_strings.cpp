@@ -1,5 +1,5 @@
 
-#include "../strings.h"
+#include "strings.h"
 #include <gtest/gtest.h>
 #include <string.h>
 #include <limits.h>

@@ -1,5 +1,5 @@
 
-#include "../dlist.h"
+#include "dlist.h"
 #include <gtest/gtest.h>
 
 DList *dlist = nullptr;

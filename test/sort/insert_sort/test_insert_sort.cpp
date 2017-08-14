@@ -1,5 +1,5 @@
 
-#include "../insert_sort.h"
+#include "insert_sort.h"
 #include <gtest/gtest.h>
 
 int less_than(const void *key1, const void *key2)
